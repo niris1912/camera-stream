@@ -18,5 +18,5 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('camera/', include('camera.urls'))
+    path('stream/', include('camera.urls'))
 ]
